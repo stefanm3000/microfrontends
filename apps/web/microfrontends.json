@@ -6,23 +6,23 @@
         "local": 3000
       }
     },
-    "docs": {
+    "next-16": {
       "development": {
         "local": 3001
       },
       "routing": [
         {
-          "paths": ["/docs/:path*"]
+          "paths": ["/next-16/:path*"]
         }
       ]
     },
-    "admin": {
+    "react-router": {
       "development": {
         "local": 3002
       },
       "routing": [
         {
-          "paths": ["/admin/:path*"]
+          "paths": ["/react-router/:path*"]
         }
       ]
     }

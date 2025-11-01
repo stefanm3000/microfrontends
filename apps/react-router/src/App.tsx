@@ -17,7 +17,7 @@ function App() {
       <h1>Vite + React on localhost:3002</h1>
       <p style={{ fontSize: 24 }}>But you're looking at localhost:3024 🤩</p>
       <div style={{ marginTop: "2rem" }}>
-        <Link to="/admin/nested">Go to /thing/nested page</Link>
+        <Link to="/react-router/nested">Go to /thing/nested page</Link>
       </div>
       <div style={{ marginTop: "2rem" }}>
         <a href="/">Go to Next.js app</a>

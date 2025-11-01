@@ -1,5 +1,5 @@
 import Image, { type ImageProps } from "next/image";
-import styles from "../page.module.css";
+import styles from "./page.module.css";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -30,11 +30,17 @@ export default function Home() {
           height={38}
           priority
         />
-        <p>I am a NESTED PAGE in localhost:3001!</p>
+        <p>But ME?! I&apos;m from localhost:3001!</p>
+        <p style={{ fontSize: 24 }}>
+          👀 ...even though you&apos;re still on :3024
+        </p>
 
         <div className={styles.ctas}>
-          <a className={styles.primary} href="/docs">
-            Go to docs root
+          <a className={styles.primary} href="/next-16/nested">
+            Go to nested page
+          </a>
+          <a className={styles.primary} href="/react-router">
+            Go to Vite app
           </a>
         </div>
       </main>

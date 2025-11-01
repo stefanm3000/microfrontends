@@ -34,7 +34,7 @@ export default function Home() {
         <p style={{ fontSize: 24 }}>👀 ...but you&apos;re looking at :3024</p>
 
         <div className={styles.ctas}>
-          <a className={styles.primary} href="/docs">
+          <a className={styles.primary} href="/next-16">
             Go to docs app
           </a>
         </div>

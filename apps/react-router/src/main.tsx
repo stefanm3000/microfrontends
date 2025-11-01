@@ -9,9 +9,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/admin" element={<App />} />
-        <Route path="/admin/nested" element={<Nested />} />
+        <Route path="/react-router" element={<App />} />
+        <Route path="/react-router/nested" element={<Nested />} />
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
